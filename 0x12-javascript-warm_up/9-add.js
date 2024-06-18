@@ -2,13 +2,13 @@
 
 
 function add(a, b) {
-	const numA = parseInt(a, 10);
-	const numB = parseInt(b, 10);
+  const numA = parseInt(a, 10);
+  const numB = parseInt(b, 10);
 
-	if (isNaN(numA) || isNaN(numB)) {
-		return "Invalid arguments";
-	}
-	return numA + numB;
+  if (isNaN(numA) || isNaN(numB)) {
+	return "Invalid arguments";
+  }
+  return numA + numB;
 }
 
 const firstArg = process.argv[2];
