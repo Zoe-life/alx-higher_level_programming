@@ -1,13 +1,12 @@
 #!/usr/bin/node
 
-
-function findSecondBiggest(args) {
+function findSecondBiggest (args) {
   if (args.length <= 1) {
-	return 0;
+    return 0;
   }
-const numbers = args.map(arg => parseInt(arg));
+  const numbers = args.map(arg => parseInt(arg));
   numbers.sort((a, b) => b - a);
-const uniqueNumbers = [...new Set(numbers)];
+  const uniqueNumbers = [...new Set(numbers)];
   return uniqueNumbers[1] || 0;
 }
 
