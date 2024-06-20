@@ -1,21 +1,18 @@
 #!/usr/bin/node
 
-class Square extends Rectangle {
-  constructor (size) {
-    super(size, size);
-  }
+const SquareP = require('./5-square');
 
-  charPrint (char = 'X') {
-    if (this.width && this.height) {
-      for (let i = 0; i < this.height; i++) {
-        let line = '';
-        for (let j = 0; j < this.width; j++) {
-          line += char;
-        }
-        console.log(line);
+class Square extends SquareP {
+  charPrint (c) {
+    if (c === undefined) {
+      c = 'X';
+    }
+    for (let i = 0; i < this.height; i++) {
+      let s = '';
+      for (let j = 0; j < this.width; j++) {
+        s += c;
       }
-    } else {
-      console.log('Square is empty');
+      console.log(s);
     }
   }
 }
