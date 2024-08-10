@@ -1,0 +1,14 @@
+>>> add_integer(1, 2) == 3
+True
+>>> add_integer(100, -2) == 98
+True
+>>> add_integer(2.5, 1.5) == 4  # Floats converted to integers
+True
+>>> add_integer("a", 1)  # Should raise TypeError
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: a must be an integer or b must be an integer
+>>> add_integer(None)  # Should raise TypeError
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: a must be an integer or b must be an integer

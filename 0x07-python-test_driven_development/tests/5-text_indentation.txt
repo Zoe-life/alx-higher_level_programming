@@ -1,0 +1,9 @@
+>>> text_indentation("Lorem ipsum dolor sit amet.")
+Lorem ipsum dolor sit amet.
+
+>>> text_indentation("Hello? How are you?")
+Hello?
+How are you?
+
+>>> text_indentation("  This is a test.  ")
+This is a test.
