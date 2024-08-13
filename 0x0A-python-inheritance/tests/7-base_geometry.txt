@@ -1,0 +1,32 @@
+# Test cases for BaseGeometry class
+
+# Test instantiation of BaseGeometry object
+obj = BaseGeometry()
+print(obj)
+
+# Test area method raising exception
+try:
+  print(obj.area())
+except Exception as e:
+  print("[{}] {}".format(e.__class__.__name__, e))
+
+# Test integer_validator with valid integer
+obj.integer_validator("my_int", 12)
+
+# Test integer_validator with non-integer value (string)
+try:
+  obj.integer_validator("name", "John")
+except Exception as e:
+  print("[{}] {}".format(e.__class__.__name__, e))
+
+# Test integer_validator with non-positive value (0)
+try:
+  obj.integer_validator("age", 0)
+except Exception as e:
+  print("[{}] {}".format(e.__class__.__name__, e))
+
+# Test integer_validator with negative value
+try:
+  obj.integer_validator("distance", -4)
+except Exception as e:
+  print("[{}] {}".format(e.__class__.__name__, e))
