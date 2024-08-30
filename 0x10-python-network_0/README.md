@@ -11,10 +11,13 @@ Read or watch:
 
 HTTP (HyperText Transfer Protocol) (except: “TRACE” Request Method, “CONNECT” Request Method, Language Negotiation and “Options MultiView” and Character Set Negotiation)
 HTTP Cookies
+
+
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 General
+
 What a URL is
 What HTTP is
 How to read a URL
@@ -35,6 +38,7 @@ What happens when you type google.com in your browser (Application level)
 
 
 Copyright - Plagiarism
+
 You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
@@ -42,7 +46,9 @@ Any form of plagiarism is strictly forbidden and will result in removal from the
 
 
 Requirements
+
 General
+
 Allowed editors: vi, vim, emacs
 - A README.md file, at the root of the folder of the project, is mandatory
 All your scripts will be tested on Ubuntu 20.04 LTS
@@ -63,9 +69,9 @@ A documentation is not a simple word, it’s a real sentence explaining what’s
 
 
 Tasks
+
 0. cURL body size
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+
 Write a Bash script that takes in a URL, sends a request to that URL, and displays the size of the body of the response
 
 The size must be displayed in bytes
@@ -82,6 +88,7 @@ Directory: 0x10-python-network_0
 File: 0-body_size.sh
     
 1. cURL to the end
+
 Write a Bash script that takes in a URL, sends a GET request to the URL, and displays the body of the response
 
 Display only body of a 200 status code response
