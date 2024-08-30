@@ -5,15 +5,7 @@ Python
 Scripting
 Back-end
 API
- Weight: 1
- Project over - took place from Jul 4, 2024 6:00 AM to Jul 5, 2024 6:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/47 mandatory & 0.0/23 optional
-Altogether:  0.0%
-Mandatory: 0.0%
-Optional: 0.0%
-Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
+
 Resources
 Read or watch:
 
@@ -40,11 +32,15 @@ What an HTTP response status code is
 What an HTTP Cookie is
 How to make a request with cURL
 What happens when you type google.com in your browser (Application level)
+
+
 Copyright - Plagiarism
 You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
+
+
 Requirements
 General
 Allowed editors: vi, vim, emacs
@@ -63,8 +59,9 @@ All your modules should be documented: python3 -c 'print(__import__("my_module")
 All your classes should be documented: python3 -c 'print(__import__("my_module").MyClass.__doc__)'
 All your functions (inside and outside a class) should be documented: python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
+
+
+
 Tasks
 0. cURL body size
 mandatory
@@ -85,8 +82,6 @@ Directory: 0x10-python-network_0
 File: 0-body_size.sh
     
 1. cURL to the end
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that takes in a URL, sends a GET request to the URL, and displays the body of the response
 
 Display only body of a 200 status code response
@@ -103,8 +98,6 @@ Directory: 0x10-python-network_0
 File: 1-body.sh
     
 2. cURL Method
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that sends a DELETE request to the URL passed as the first argument and displays the body of the response
 
 You have to use curl
@@ -120,8 +113,6 @@ Directory: 0x10-python-network_0
 File: 2-delete.sh
     
 3. cURL only methods
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that takes in a URL and displays all HTTP methods the server will accept.
 
 You have to use curl
@@ -137,8 +128,6 @@ Directory: 0x10-python-network_0
 File: 3-methods.sh
     
 4. cURL headers
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a Bash script that takes in a URL as an argument, sends a GET request to the URL, and displays the body of the response
 
 A header variable X-School-User-Id must be sent with the value 98
