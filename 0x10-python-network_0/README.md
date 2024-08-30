@@ -1,9 +1,5 @@
-Toggle navigation
-Curriculum
-SE Foundations
-Average: 48.05%
-You just released the advanced tasks of this project. Have fun!
 0x10. Python - Network #0
+
 Bash
 Python
 Scripting
