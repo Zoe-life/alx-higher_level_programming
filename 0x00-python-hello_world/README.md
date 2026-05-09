@@ -38,3 +38,21 @@ Introductory Python exercises covering execution, output, string manipulation, a
 ## Usage
 
 Run individual Python scripts with `python3 <filename>.py`. Compile C files such as `10-check_cycle.c` together with the provided header when testing the linked list utility.
+
+## Detailed File Guide
+
+- `0-run` — Shell script that runs a Python script file.
+- `1-run_inline` — Shell script that executes inline Python code with `-c`.
+- `2-print.py` — Prints the exact string "Programming is like building a multilingual puzzle".
+- `3-print_number.py` — Stores an integer and prints it inside a sentence.
+- `4-print_float.py` — Prints a float with 2 decimal places using formatting.
+- `5-print_string.py` — Prints a string three times and then its first 9 characters.
+- `6-concat.py` — Concatenates first name and last name into a greeting.
+- `7-edges.py` — Slices and prints first, middle, and last parts of a word.
+- `8-concat_edges.py` — Builds and prints a sentence from selected string slices.
+- `9-easter_egg.py` — Prints "The Zen of Python" with `import this`.
+- `10-check_cycle.c` — C function that detects a cycle in a singly linked list.
+- `100-write.py` — Prints text to stderr using low-level output style.
+- `101-compile` — Shell script that compiles a Python file into bytecode (`.pyc`).
+- `102-magic_calculation.py` — Reproduces given Python bytecode logic in source form.
+- `lists.h` — Header with linked-list structure and function prototype for C task.

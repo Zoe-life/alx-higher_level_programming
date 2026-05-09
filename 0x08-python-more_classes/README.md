@@ -33,3 +33,17 @@ A continuation of object-oriented practice focusing on rectangles, class attribu
 ## Usage
 
 Use `python3 <filename>.py` to run each exercise. The included driver files are useful for checking class behavior during development.
+
+## Detailed File Guide
+
+- `0-rectangle.py` — Defines an empty `Rectangle` class.
+- `1-rectangle.py` — Adds width/height private attributes.
+- `2-rectangle.py` — Adds attribute validation via properties.
+- `3-rectangle.py` — Adds `area()` and `perimeter()` methods.
+- `4-rectangle.py` — Adds printable rectangle string rendering.
+- `5-rectangle.py` — Adds `__repr__` for recreatable object representation.
+- `6-rectangle.py` — Adds instance deletion message behavior.
+- `7-rectangle.py` — Adds class attribute to track number of instances.
+- `8-rectangle.py` — Adds class attribute for configurable print symbol.
+- `9-rectangle.py` — Adds `staticmethod` for rectangle comparison by area.
+- `101-nqueens.py` — Solves N-Queens with backtracking and CLI validation.
