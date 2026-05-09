@@ -1,34 +1,42 @@
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+# JavaScript Objects, Scopes, and Closures
 
-General
--Why JavaScript programming is amazing
--How to create an object in JavaScript
--What 'this' means
--What undefined means
--Why the variable type and scope is important
--What is a closure
--What is a prototype
--How to inherit an object from another
+## Overview
 
+A follow-on JavaScript project focused on object construction, inheritance-style patterns, closures, array transformations, and file concatenation utilities.
 
-Requirements
-General
--Allowed editors: vi, vim, emacs
--All your files will be interpreted on Ubuntu 20.04 LTS using node (version 14.x)
--All your files should end with a new line
--The first line of all your files should be exactly #!/usr/bin/node
--A README.md file, at the root of the folder of the project, is mandatory
--Your code should be semistandard compliant. Rules of Standard + semicolons on top. Also as reference: AirBnB style
--All your files must be executable
--The length of your files will be tested using wc
--You are not allowed to use var
+## Learning Objectives
 
+- Create and extend objects with constructor functions or classes.
+- Understand scope and closure behavior in JavaScript.
+- Transform arrays and datasets with reusable functions.
+- Work with filesystem-style scripting inputs and outputs.
 
-More Info
-Install Node 14
-$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-$ sudo apt-get install -y nodejs
+## Key Deliverables
 
-Install semi-standard
-$ sudo npm install semistandard --global
+- `0-rectangle.js`
+- `1-rectangle.js`
+- `10-converter.js`
+- `100-data.js`
+- `100-map.js`
+- `101-data.js`
+- `101-sorted.js`
+- `102-concat.js`
+- `2-rectangle.js`
+- `3-rectangle.js`
+- `4-rectangle.js`
+- `5-square.js`
+- `6-square.js`
+- `7-occurrences.js`
+- `8-esrever.js`
+- `9-logme.js`
+- `fileA`
+- `fileB`
+- `fileC`
+
+## Requirements
+
+- Node.js
+
+## Usage
+
+Execute each deliverable with `node <filename>.js`. Use the bundled `*-main.js` files for quick local checks where provided.
