@@ -1,43 +1,41 @@
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+# JavaScript Warm Up
 
-General
--Why JavaScript programming is amazing
--How to run a JavaScript script
--How to create variables and constants
--What are differences between var, const and let
--What are all the data types available in JavaScript
--How to use the if, if ... else statements
--How to use comments
--How to affect values to variables
--How to use while and for loops
--How to use break and continue statements
--What is a function and how do you use functions
--What does a function that does not use any return statement return
--Scope of variables
--What are the arithmetic operators and how to use them
--How to manipulate dictionary
--How to import a file
+## Overview
 
+Introductory JavaScript exercises for Node.js covering variables, loops, functions, arithmetic, and command-line argument parsing.
 
-Requirements
-General
--Allowed editors: vi, vim, emacs
--All your files will be interpreted on Ubuntu 20.04 LTS using node (version 14.x)
--All your files should end with a new line
--The first line of all your files should be exactly #!/usr/bin/node
--A README.md file, at the root of the folder of the project, is mandatory
--Your code should be semistandard compliant (version 16.x.x). Rules of Standard + semicolons on top. Also as reference: AirBnB style
--All your files must be executable
--The length of your files will be tested using wc
+## Learning Objectives
 
+- Write and execute basic Node.js scripts.
+- Handle command-line input and numeric conversion.
+- Practice loops, functions, and object usage in JavaScript.
+- Build confidence with concise scripting exercises.
 
-More Info
+## Key Deliverables
 
-Install Node 14
-$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-$ sudo apt-get install -y nodejs
-Install semi-standard
-Documentation
+- `0-javascript_is_amazing.js`
+- `1-multi_languages.js`
+- `10-factorial.js`
+- `100-let_me_const.js`
+- `101-call_me_moby.js`
+- `102-add_me_maybe.js`
+- `103-object_fct.js`
+- `11-second_biggest.js`
+- `12-object.js`
+- `13-add.js`
+- `2-arguments.js`
+- `3-value_argument.js`
+- `4-concat.js`
+- `5-to_integer.js`
+- `6-multi_languages_loop.js`
+- `7-multi_c.js`
+- `8-square.js`
+- `9-add.js`
 
-$ sudo npm install semistandard --global
+## Requirements
+
+- Node.js
+
+## Usage
+
+Run scripts with `node <filename>.js` from within the project directory.
