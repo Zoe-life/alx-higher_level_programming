@@ -40,3 +40,23 @@ Exercises exploring lists, tuples, indexing, mutation, matrix-style iteration, a
 ## Usage
 
 Use `python3 <filename>.py` for the Python deliverables. Compile the C file with the matching header when testing the linked-list related exercise.
+
+## Detailed File Guide
+
+- `0-print_list_integer.py` — Prints all integers in a list one per line.
+- `1-element_at.py` — Returns element at a specific index.
+- `2-replace_in_list.py` — Replaces item at index if index is valid.
+- `3-print_reversed_list_integer.py` — Prints list integers in reverse order.
+- `4-new_in_list.py` — Returns a copy with one element replaced (no in-place edit).
+- `5-no_c.py` — Removes all `c`/`C` characters from a string.
+- `6-print_matrix_integer.py` — Prints a matrix of integers row by row.
+- `7-add_tuple.py` — Adds two tuples element-wise with safe defaults.
+- `8-multiple_returns.py` — Returns tuple `(string_length, first_character)`.
+- `9-max_integer.py` — Finds the largest integer in a list.
+- `10-divisible_by_2.py` — Returns boolean list for evenness per element.
+- `11-delete_at.py` — Deletes list item at index if valid.
+- `12-switch.py` — Demonstrates swapping variable values.
+- `100-print_python_list_info.c` — C helper that prints CPython list internals.
+- `100-test_lists.py` — Python driver for C extension/list-inspection behavior.
+- `linked_lists.c` — Linked-list helper functions for C tasks.
+- `lists.h` — Header for linked-list structs and prototypes.

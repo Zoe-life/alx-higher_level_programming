@@ -66,3 +66,14 @@ Conceptual exercises and short scripts that explore identity, mutability, refere
 ## Usage
 
 Review the answer files directly and run the included Python scripts with `python3 <filename>.py` where executable examples are provided.
+
+## Detailed File Guide
+
+- `0-answer.txt` to `28-answer.txt` — Text answers to theory questions on identity, mutability, references, and object behavior.
+- `100-magic_string.py` — Returns a comma-separated growing string on each call.
+- `101-locked_class.py` — Class restricted to one dynamic attribute using `__slots__`.
+- `19-copy_list.py` — Returns a shallow copy of a list.
+- `103-line1.txt`, `103-line2.txt` — Required lines for linked-list answer task.
+- `104-line1.txt` to `104-line5.txt` — Required output lines for answer scenario 104.
+- `105-line1.txt` — Required output line for scenario 105.
+- `106-line1.txt` to `106-line5.txt` — Required output lines for scenario 106.

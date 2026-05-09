@@ -33,3 +33,17 @@ An introduction to object-oriented programming in Python through progressively r
 ## Usage
 
 Run examples with `python3 <filename>.py` or use the supplied `*-main.py` files to exercise each milestone implementation.
+
+## Detailed File Guide
+
+- `0-square.py` — Defines an empty `Square` class.
+- `1-square.py` — Adds private size attribute to `Square`.
+- `2-square.py` — Adds size validation with type/value checks.
+- `3-square.py` — Adds `area()` method to compute square area.
+- `4-square.py` — Adds property getter/setter for validated `size`.
+- `5-square.py` — Adds `my_print()` to render square with `#`.
+- `6-square.py` — Adds position offset support to printed square.
+- `100-singly_linked_list.py` — Defines sorted singly linked list classes.
+- `101-square.py` — Adds string representation and richer square behavior.
+- `102-square.py` — Implements comparisons between square instances by area.
+- `103-magic_class.py` — Recreates bytecode-defined `MagicClass`.

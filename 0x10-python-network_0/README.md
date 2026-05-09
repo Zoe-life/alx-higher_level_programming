@@ -34,3 +34,17 @@ Networking exercises that introduce HTTP concepts, cURL-based request scripting,
 ## Usage
 
 Run shell scripts with `bash <filename>.sh`. Use `python3 6-peak.py` to exercise the included Python function if needed.
+
+## Detailed File Guide
+
+- `0-body_size.sh` — Sends GET request and prints response body size only.
+- `1-body.sh` — Fetches and prints body for successful (`200`) responses.
+- `2-delete.sh` — Sends DELETE request to target URL.
+- `3-methods.sh` — Displays allowed HTTP methods from server headers.
+- `4-header.sh` — Sends GET request with custom `X-School-User-Id` header.
+- `5-post_params.sh` — Sends POST request with specific form parameters.
+- `6-peak.py` — Finds a peak integer in an unsorted list.
+- `6-peak.txt` — Complexity explanation for peak-finding algorithm.
+- `100-status_code.sh` — Sends request and prints returned HTTP status code.
+- `101-post_json.sh` — Sends JSON file content as POST body.
+- `102-catch_me.sh` — Crafts request that triggers expected hidden server response.
